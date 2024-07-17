@@ -8,7 +8,9 @@ def uppercase(str):
     valeur = str
     lst = []
     for letter in valeur:
-        if islower(letter):
+        if letter == "":
+            result = ""
+        elif islower(letter):
             lst.append(letter.swapcase())
         else:
             lst.append(letter)
