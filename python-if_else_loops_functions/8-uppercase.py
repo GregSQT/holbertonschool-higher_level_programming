@@ -15,7 +15,7 @@ def uppercase(str):
                 lst.append(letter.swapcase())
             else:
                 lst.append(letter)
-                result = ''.join(lst)
+        result = ''.join(lst)
     print("{}".format(result))
 
 #uppercase("best")
