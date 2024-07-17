@@ -7,5 +7,5 @@ for i in range(0,10):
             print(txt0, end="")
         elif (i != k and k>i):
             txt1="{}{}".format(i, k)
-            print(", ", txt1, end="")
+            print(",", txt1, end="")
 print ()
