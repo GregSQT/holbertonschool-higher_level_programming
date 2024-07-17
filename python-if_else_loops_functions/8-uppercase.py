@@ -13,7 +13,7 @@ def uppercase(str):
         else:
             lst.append(letter)
         result = ''.join(lst)
-    print(result)
+    print("{}".format(result))
 
 uppercase("best")
 uppercase("Best School 98 Battery street")
