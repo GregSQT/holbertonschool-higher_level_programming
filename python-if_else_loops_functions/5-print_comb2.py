@@ -2,7 +2,7 @@
 nb = 0
 while nb < 100:
     if nb < 99:
-        print("{:02d}".format(nb), end = ", ")
+        print("{:02d}".format(nb), end=", ")
     else:
         print("{:02d}".format(nb))
     nb = nb + 1
