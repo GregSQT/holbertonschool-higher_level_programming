@@ -7,11 +7,10 @@ lastDigit = s[-1]
 
 if number < 0:
     lastDigit = "-" + lastDigit
-
+print("Last digit of", number, "is", int(lastDigit), end = "")
 if int(lastDigit) > 5:
-    print("Last digit of", number, "is", int(lastDigit), "and is greater than 5")
+    print("and is greater than 5")
 elif int(lastDigit) == 0:
-    print("Last digit of", number, "is", int(lastDigit), "and is 0")
+    print("and is 0")
 else:
-    print("Last digit of", number, "is", int(lastDigit), "and is less than 6 and not 0")
-
+    print("and is less than 6 and not 0")
