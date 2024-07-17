@@ -11,9 +11,7 @@ def uppercase(str):
     else:
         lst = []
         for letter in valeur:
-            if letter == "":
-                result = ""
-            elif islower(letter):
+            if islower(letter):
                 lst.append(letter.swapcase())
             else:
                 lst.append(letter)
