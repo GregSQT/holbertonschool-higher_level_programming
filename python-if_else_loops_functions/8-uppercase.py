@@ -10,14 +10,14 @@ def uppercase(str):
         result = ""
     else:
         lst = []
-    for letter in valeur:
-        if letter == "":
-            result = ""
-        elif islower(letter):
-            lst.append(letter.swapcase())
-        else:
-            lst.append(letter)
-            result = ''.join(lst)
+        for letter in valeur:
+            if letter == "":
+                result = ""
+            elif islower(letter):
+                lst.append(letter.swapcase())
+            else:
+                lst.append(letter)
+                result = ''.join(lst)
     print("{}".format(result))
 
 #uppercase("best")
