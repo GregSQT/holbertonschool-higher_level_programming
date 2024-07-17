@@ -10,7 +10,7 @@ if number < 0:
 
 if int(lastDigit) > 5:
     print("Last digit of", number, "is", int(lastDigit), "and is greater than 5")
-elif lastDigit == 0:
+elif int(lastDigit) == 0:
     print("Last digit of", number, "is", int(lastDigit), "and is 0")
 else:
     print("Last digit of", number, "is", int(lastDigit), "and is less than 6 and not 0")
