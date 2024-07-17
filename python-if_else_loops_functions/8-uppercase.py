@@ -15,5 +15,5 @@ def uppercase(str):
         result = ''.join(lst)
     print("{}".format(result))
 
-uppercase("best")
-uppercase("Best School 98 Battery street")
+#uppercase("best")
+#uppercase("Best School 98 Battery street")
