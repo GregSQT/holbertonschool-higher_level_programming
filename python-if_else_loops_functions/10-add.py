@@ -2,7 +2,8 @@
 
 def add(a, b):
     result = a + b
-    print("{}".format(result))
+    #print("{}".format(result), end = "")
+    return(result)
 
 print(add(1, 2))
 print(add(98, 0))
