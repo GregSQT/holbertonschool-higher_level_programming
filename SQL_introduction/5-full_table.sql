@@ -1,2 +1,2 @@
 -- Creation de DB
-show columns from first_table;
+show columns FROM first_table;
