@@ -9,6 +9,3 @@ def fizzbuzz():
         else:
             print("{}".format(nb), end=" ")
         nb = nb + 1
-
-fizzbuzz()
-print("")
