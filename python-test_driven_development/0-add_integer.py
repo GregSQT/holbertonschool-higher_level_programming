@@ -14,6 +14,5 @@ def add_integer(a, b=98):
 
     result = a + b
 
-    print ("{}".format(result))
-
+    return (result)
 
