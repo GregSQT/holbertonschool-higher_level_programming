@@ -1,2 +1,2 @@
 -- Creation de DB
- DESC first_table;
+SHOW CREATE TABLE first_table;
