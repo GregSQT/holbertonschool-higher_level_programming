@@ -1,2 +1,2 @@
 -- Creation de DB
-REVERSE (first_table);
+SELECT REVERSE (first_table);
