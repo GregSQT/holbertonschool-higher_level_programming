@@ -1,2 +1,2 @@
 -- Selection des tables
-SELECT table_name, owner FROM user_tables
+SELECT table_name FROM user_tables
