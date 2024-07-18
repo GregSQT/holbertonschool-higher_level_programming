@@ -5,6 +5,13 @@
 class Square():
     """Definition de la classe Square"""
 
+    def __init__(self, new_size=0, position=(0, 0)):
+        if type(new_size) is not int:
+            raise TypeError("size must be an integer")
+        if new_size < 0:
+            raise ValueError("size must be >= 0")
+        self._size = new_size
+
     @property
     def size(self):
         return self._size
