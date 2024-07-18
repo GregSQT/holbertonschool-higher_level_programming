@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-class Square:
+""" Script definissant un square """
+
+class Square():
+    """ Definition de classe Square """
+    __dict__ = {}
