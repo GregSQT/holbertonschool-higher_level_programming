@@ -1,2 +1,2 @@
 -- Selection des databases
-SELECT * FROM sys.databases
+SHOW DATABASES
