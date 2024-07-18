@@ -1,2 +1,2 @@
--- Selection des tables
-SELECT table_name FROM user_tables;
+-- Selection des databases
+SELECT * FROM sys.databases
