@@ -5,7 +5,7 @@
 class Square():
     """Definition de la classe Square"""
 
-    _Square__size = 0
+    _size = 0
 
     def __init__(self, new_size=0):
         if type(new_size) is not int:
