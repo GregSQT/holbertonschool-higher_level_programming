@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This is the best square class possible woaw"""
+"""Scritp de definition d'un square"""
 
 
 class Square():
-"""This is the best square class possible woaw"""
+    """Definition de la classe Square"""
 
     def __init__(self, new_size=0, position=(0, 0)):
         if type(new_size) is not int:
