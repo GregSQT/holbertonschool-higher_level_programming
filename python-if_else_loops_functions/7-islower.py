@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
 def islower(c):
-    status = c.islower()
-    return (status)
+    if c != "":
+        status = c.islower()
+        return (status)
